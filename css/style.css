@@ -1154,7 +1154,7 @@ body.ie ._ibg img {
 .content-creative-info {
   border-radius: 30px;
   background-color: rgba(222, 55, 127, 0.4);
-  padding: 0px 32px 80px 32px;
+  padding: 0px 36px 80px 36px;
 }
 
 .content-creative-info__title {
@@ -1726,6 +1726,8 @@ body.ie ._ibg img {
 
   .content-dreams-info__text {
     padding: 0px 0px 20px 0px;
+    max-width: 228px;
+    margin: 0px auto;
   }
 }
 
@@ -2000,12 +2002,14 @@ body.ie ._ibg img {
   }
 
   .content-creative-info {
-    padding: 0px 18px 40px 32px;
+    padding: 0px 36px 40px 36px;
   }
 
   .content-creative-info__title {
     text-align: center;
     padding: 25px 0px 10px 0px;
+    max-width: 228px;
+    margin: 0px auto;
   }
 
   .content-creative-info__title h2 {
@@ -2014,7 +2018,7 @@ body.ie ._ibg img {
   }
 
   .content-creative-info__text {
-    max-width: 215px;
+    max-width: 228px;
     margin: 0px auto;
     padding: 0px 0px 10px 0px;
   }
@@ -2028,7 +2032,7 @@ body.ie ._ibg img {
   .content-creative-info__subtext {
     margin: 0px auto;
     padding: 0px 0px 10px 0px;
-    max-width: 200px;
+    max-width: 228px;
   }
 
   .content-creative-info__subtext p {
@@ -2073,6 +2077,8 @@ body.ie ._ibg img {
 
   .content-collar-info__title {
     padding: 27px 0px 20px 0px;
+    max-width: 228px;
+    margin: 0px auto;
   }
 
   .content-collar-info__title h2 {
@@ -2083,6 +2089,8 @@ body.ie ._ibg img {
 
   .content-collar-info__text {
     padding: 0px 0px 0px 0px;
+    max-width: 228px;
+    margin: 0px auto;
   }
 
   .content-collar-info__text p {
@@ -2095,6 +2103,8 @@ body.ie ._ibg img {
 
   .content-collar-info__subtext {
     padding: 0px 0px 20px 0px;
+    max-width: 228px;
+    margin: 0px auto;
   }
 
   .content-collar-info__subtext p {
@@ -2107,6 +2117,8 @@ body.ie ._ibg img {
 
   .content-collar-info__thretext {
     padding: 0px 0px 20px 0px;
+    max-width: 228px;
+    margin: 0px auto;
   }
 
   .content-collar-info__thretext p {
@@ -2119,6 +2131,8 @@ body.ie ._ibg img {
 
   .content-collar-info__fourtext {
     padding: 0px 0px 28px 0px;
+    max-width: 228px;
+    margin: 0px auto;
   }
 
   .content-collar-info__fourtext p {
@@ -2131,6 +2145,7 @@ body.ie ._ibg img {
 
   .content-collar-info__btn {
     padding: 0px 0px 11px 0px;
+    text-align: center;
   }
 
   .content-collar-info__link {
@@ -2276,7 +2291,7 @@ body.ie ._ibg img {
   }
 
   .content-dreams-info {
-    padding: 25px 20px 10px 20px;
+    padding: 25px 36px 10px 36px;
   }
 
   .content-dreams-info__title {
@@ -2300,7 +2315,7 @@ body.ie ._ibg img {
   }
 
   .content-dreams-info__subtext {
-    max-width: 240px;
+    max-width: 228px;
     padding: 0px 0px 20px 0px;
     margin: 0px auto;
   }
@@ -2329,6 +2344,8 @@ body.ie ._ibg img {
 
   .content-dreams-info__fourtext {
     padding: 0px 0px 50px 0px;
+    max-width: 228px;
+    margin: 0px auto;
   }
 
   .content-dreams-info__fourtext p {
