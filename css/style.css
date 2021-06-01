@@ -130,7 +130,7 @@ body._lock {
 }
 
 ._container {
-  max-width: 1596px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -953,7 +953,12 @@ body.ie ._ibg img {
 }
 
 .logo-header {
-  padding: 20px 0px 75px 0px;
+  padding: 10px 0px 75px 0px;
+}
+
+.logo-header img {
+  width: 240px;
+  height: 120px;
 }
 
 .header-nav__list {
@@ -963,6 +968,7 @@ body.ie ._ibg img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: -25px 0px 0px 0px;
 }
 
 .header-nav__list li:nth-child(5) {
@@ -983,7 +989,7 @@ body.ie ._ibg img {
 }
 
 .header-nav__link {
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1027,6 +1033,11 @@ body.ie ._ibg img {
 
 .logo-footer {
   padding: 45px 0px 45px 0px;
+}
+
+.logo-footer img {
+  width: 240px;
+  height: 110px;
 }
 
 .footer-nav__list {
@@ -1088,8 +1099,8 @@ body.ie ._ibg img {
 }
 
 .img-creative__img img {
-  height: 616px;
-  width: 616px;
+  height: 590px;
+  width: 590px;
   z-index: 5;
   position: relative;
 }
@@ -1346,15 +1357,20 @@ body.ie ._ibg img {
   color: #ffffff;
 }
 
-.img-collar {
+.img-collar__item {
   z-index: 10;
   position: relative;
 }
 
+.img-collar__item img {
+  height: 590px;
+  width: 590px;
+}
+
 .img-collar-abs__peace {
   position: absolute;
-  left: 0;
-  top: -20%;
+  left: 15%;
+  top: 5%;
 }
 
 .img-collar-abs__love {
@@ -1366,7 +1382,7 @@ body.ie ._ibg img {
 .img-collar-abs__dog {
   position: absolute;
   right: -36%;
-  top: 18%;
+  top: 32%;
   z-index: 11;
 }
 
@@ -1377,22 +1393,26 @@ body.ie ._ibg img {
   z-index: 5;
 }
 
+.img-collar-abs__green-b img {
+  width: 450px;
+}
+
 .img-collar-abs__orange {
   position: absolute;
   left: -55%;
-  top: -20%;
+  top: 5%;
 }
 
 .img-collar-abs__orange-two {
   position: absolute;
   right: -30%;
-  top: 25%;
+  top: 35%;
 }
 
 .img-collar-green-l {
   position: absolute;
-  right: -20%;
-  top: 1%;
+  right: -15%;
+  top: 15%;
 }
 
 .img-collar-green-l--two {
@@ -1403,7 +1423,7 @@ body.ie ._ibg img {
 
 .img-collar-green-l--three {
   position: absolute;
-  bottom: -25%;
+  bottom: -20%;
   left: -75%;
 }
 
@@ -1423,52 +1443,58 @@ body.ie ._ibg img {
 
 .dreams__columns {
   padding: 207px 0px 207px 0px;
+  position: relative;
 }
 
-.img-dreams {
+.img-dreams__item {
   position: relative;
   z-index: 4;
 }
 
+.img-dreams__item img {
+  height: 590px;
+  width: 590px;
+}
+
 .img-dreams-abs__peace {
   position: absolute;
-  left: -30%;
-  top: -15%;
+  left: -15%;
+  top: 0;
   z-index: 5;
 }
 
 .img-dreams-abs__love {
   position: absolute;
-  left: -18%;
-  top: 65%;
+  left: -10%;
+  top: 57%;
   z-index: 5;
 }
 
 .img-dreams-abs__dog {
   position: absolute;
-  left: 75%;
-  top: 2%;
+  left: 25%;
+  top: 8%;
   z-index: 5;
 }
 
 .img-dreams-abs__orange-b {
   position: absolute;
-  left: 40%;
+  left: 18%;
   top: 40%;
   z-index: 2;
 }
 
 .img-dreams-abs__orange-l {
   position: absolute;
-  right: -70%;
-  bottom: -25%;
+  right: 30%;
+  bottom: 5%;
   z-index: 2;
 }
 
 .img-dreams-abs__orange-l--two {
   position: absolute;
-  right: -130%;
-  top: -20%;
+  right: -20%;
+  top: 0;
 }
 
 .img-dreams-abs__blue {
@@ -1576,7 +1602,7 @@ body.ie ._ibg img {
   }
 }
 
-@media (max-width: 1608px) {
+@media (max-width: 1412px) {
   ._container {
     max-width: 970px;
   }
@@ -1595,22 +1621,23 @@ body.ie ._ibg img {
   }
 
   .header-nav__list li:nth-child(5) {
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
   }
 
   .header-nav__list li:nth-child(6) {
     padding: 0px 0px 30px 40px;
-    margin: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
   }
 
   .header-nav__list li:nth-child(7) {
     padding: 0px 0px 30px 20px;
+    margin: 10px 0px 0px 0px;
   }
 
   .header-nav__list li:last-child {
     padding: 0px 0px 30px 20px;
-    margin: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
   }
 
   .header-nav__list {
@@ -1623,7 +1650,7 @@ body.ie ._ibg img {
   }
 
   .header-nav__list li {
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 10px 0px;
     cursor: pointer;
   }
 
@@ -1699,6 +1726,10 @@ body.ie ._ibg img {
             align-items: center;
   }
 
+  .content-collar-info__btn {
+    text-align: center;
+  }
+
   .img-collar-abs__love {
     left: -30%;
     top: 1%;
@@ -1730,6 +1761,41 @@ body.ie ._ibg img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+
+  .img-dreams-abs__peace {
+    left: 0;
+    top: 0;
+  }
+
+  .img-dreams-abs__love {
+    left: 7%;
+    top: 28%;
+  }
+
+  .img-dreams-abs__dog {
+    left: 60%;
+    top: 8%;
+  }
+
+  .img-dreams-abs__orange-b {
+    left: 65%;
+    bottom: 0;
+  }
+
+  .img-dreams-abs__orange-b img {
+    width: 254px;
+    height: 254px;
+  }
+
+  .img-dreams-abs__blue {
+    left: 60%;
+    top: 5%;
+  }
+
+  .img-dreams-abs__blue--two {
+    top: 20%;
+    left: 0;
   }
 
   .content-dreams-info__text {
@@ -1835,7 +1901,7 @@ body.ie ._ibg img {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    z-index: 50;
+    z-index: 7;
     opacity: 0;
     visibility: hidden;
   }
@@ -1893,7 +1959,7 @@ body.ie ._ibg img {
     width: 35px;
     height: 24.5px;
     cursor: pointer;
-    z-index: 51;
+    z-index: 8;
   }
 
   .icon-menu span {
@@ -1945,6 +2011,9 @@ body.ie ._ibg img {
   .footer-nav__link {
     padding: 0px 0px 0px 0px;
   }
+
+  ._no-webp .bg-wrapper{
+    background: url("../img/bg.png") center no-repeat; }
 
   .img-creative__img {
     padding: 40px 0px 0px 0px;
@@ -2168,14 +2237,14 @@ body.ie ._ibg img {
     padding: 16px 20px;
   }
 
-  .img-collar img {
+  .img-collar__item img {
     width: 240px;
     height: 240px;
   }
 
   .img-collar-abs__peace {
     left: 70%;
-    top: -20%;
+    top: 10%;
   }
 
   .img-collar-abs__peace img {
@@ -2185,7 +2254,7 @@ body.ie ._ibg img {
 
   .img-collar-abs__love {
     left: -10%;
-    top: -15%;
+    top: 10%;
   }
 
   .img-collar-abs__love img {
@@ -2195,7 +2264,7 @@ body.ie ._ibg img {
 
   .img-collar-abs__dog {
     right: -30%;
-    top: 45%;
+    top: 55%;
   }
 
   .img-collar-abs__dog img {
@@ -2208,8 +2277,8 @@ body.ie ._ibg img {
   }
 
   .img-collar-abs__orange {
-    left: 29%;
-    top: -20%;
+    left: 100%;
+    top: 50%;
   }
 
   .img-collar-abs__orange img {
@@ -2232,7 +2301,7 @@ body.ie ._ibg img {
   }
 
   .img-collar-green-l--two {
-    top: 0;
+    top: 25%;
     left: 90%;
   }
 
@@ -2257,14 +2326,24 @@ body.ie ._ibg img {
     padding: 0px 0px 0px 0px;
   }
 
-  .img-dreams img {
+  .img-dreams__item img {
     height: 240px;
     width: 240px;
+  }
+
+  .img-dreams-abs__peace {
+    left: 0;
+    top: 5%;
   }
 
   .img-dreams-abs__peace img {
     height: 87px;
     width: 87px;
+  }
+
+  .img-dreams-abs__love {
+    left: -10%;
+    top: 60%;
   }
 
   .img-dreams-abs__love img {
@@ -2295,8 +2374,8 @@ body.ie ._ibg img {
   }
 
   .img-dreams-abs__blue--two {
-    top: -15%;
-    right: 30%;
+    top: 50%;
+    left: -15%;
   }
 
   .img-dreams-abs__blue--two img {
@@ -2369,4 +2448,9 @@ body.ie ._ibg img {
     line-height: 16px;
     text-align: center;
   }
+}
+
+@media (max-width: 767.98px){
+
+  ._webp .bg-wrapper{ background: url(../img/bg.webp) center no-repeat; }
 }
