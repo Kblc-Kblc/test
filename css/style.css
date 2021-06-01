@@ -1742,6 +1742,10 @@ body.ie ._ibg img {
     text-align: center;
   }
 
+  .img-collar-abs__peace {
+    top: 9%;
+  }
+
   .img-collar-abs__love {
     left: -30%;
     top: 10%;
@@ -2273,8 +2277,8 @@ body.ie ._ibg img {
   }
 
   .img-collar-abs__love {
-    left: -30%;
-    top: 35%;
+    left: -20%;
+    top: 20%;
   }
 
   .img-collar-abs__love img {
@@ -2358,8 +2362,8 @@ body.ie ._ibg img {
   }
 
   .img-dreams-abs__peace {
-    left: -25%;
-    top: 15%;
+    left: -20%;
+    top: 10%;
   }
 
   .img-dreams-abs__peace img {
